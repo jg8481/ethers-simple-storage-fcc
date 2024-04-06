@@ -117,7 +117,7 @@ if [ "$1" == "Start-EthersJS-Deployment-On-Ganache-Node" ]; then
   ganache --account_keys_path ganache-private-keys.json > ./logs/ganache-node-standalone-mode.log &
   sleep 4
   # source ./.env
-  # For real PRIVATE_KEY and RPC_URL values use the provided .env.example to create your own .env file instead of the following local testing values.
+  # For real PRIVATE_KEY and real RPC_URL values use the provided .env.example to create your own .env file instead of the following local testing values.
   export PRIVATE_KEY=$(cat ganache-private-keys.json | jq .private_keys | head -2 | tail -1 | awk '{ print $2 }' | tr -d '"' | tr -d ',')
   export RPC_URL="http://0.0.0.0:8545"
   # ^ The current fake RPC_URL and fake PRIVATE_KEY come from the Ganache fake blockchain node.
@@ -138,7 +138,7 @@ if [ "$1" == "Start-EthersJS-Interact-Test" ]; then
   echo "This command will run the Start-EthersJS-Interact-Test script. This run started on $TIMESTAMP."
   echo
   # source ./.env
-  # For real PRIVATE_KEY and RPC_URL values use the provided .env.example to create your own .env file instead of the following local testing values.
+  # For real PRIVATE_KEY and real RPC_URL values use the provided .env.example to create your own .env file instead of the following local testing values.
   export PRIVATE_KEY=$(cat ganache-private-keys.json | jq .private_keys | head -2 | tail -1 | awk '{ print $2 }' | tr -d '"' | tr -d ',')
   export RPC_URL="http://0.0.0.0:8545"
   export CONTRACT_ADDRESS=$(cat ./logs/ganache-node-standalone-mode.log | grep "created" | awk '{ print $3 }')
