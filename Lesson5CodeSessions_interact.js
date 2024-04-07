@@ -4,7 +4,7 @@ require("dotenv").config()
 
 // This Lesson5CodeSessions_interact.js or simply "interact.js" script is based on a similar simple test I wrote below.
 //
-// https://github.com/jg8481/Robot-Framework-Solidity-Testing-Toolkit/blob/main/solidity-hardhat-multichain-tools/tasks/interact.js
+// https://github.com/jg8481/Robot-Framework-Solidity-Testing-Toolkit/blob/main/solidity-hardhat-multichain-tools/scripts/interact.js
 //
 // The following example shows how to use this interact.js tool from your terminal.
 //
