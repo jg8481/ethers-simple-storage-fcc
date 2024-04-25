@@ -161,7 +161,7 @@ usage_explanation() {
   echo
   echo "This tool runner script can be used to run the following commands to deploy the Solidity examples from the Patrick Collins FCC Solidity YouTube course."
   echo
-  echo "You can view just this help menu again (without triggering any automation) by running 'bash ./Lesson5CodeSessions_start-deployment-scripts.sh -h' or 'bash ./Lesson5CodeSessions_start-deployment-scripts.sh -h --help'."
+  echo "You can view just this help menu again (without triggering any automation) by running 'bash ./Lesson5CodeSessions_start-deployment-scripts.sh -h' or 'bash ./Lesson5CodeSessions_start-deployment-scripts.sh --help'."
   echo
   echo "bash ./Lesson5CodeSessions_start-deployment-scripts.sh Stop-Local-Blockchain-Nodes-And-Delete-Logs"
   echo "bash ./Lesson5CodeSessions_start-deployment-scripts.sh Install-Tools-On-MacOS-Or-Linux"
