@@ -22,7 +22,7 @@ bash ./Lesson5CodeSessions_start-deployment-scripts.sh Stop-Local-Blockchain-Nod
 bash ./Lesson5CodeSessions_start-deployment-scripts.sh Install-Tools-On-MacOS-Or-Linux
 bash ./Lesson5CodeSessions_start-deployment-scripts.sh Compile-Solidity-Code-With-Yarn
 bash ./Lesson5CodeSessions_start-deployment-scripts.sh Start-EthersJS-Deployment-On-Ganache-Node
-bash ./Lesson5CodeSessions_start-deployment-scripts.sh Start-EthersJS-Interact-Test"
+bash ./Lesson5CodeSessions_start-deployment-scripts.sh Start-EthersJS-Interact-Test
 
 If you're running this for the first time run the following before running Start-EthersJS-Deployment-On-Ganache-Node.
 
